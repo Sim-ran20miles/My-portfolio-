@@ -1,0 +1,46 @@
+h1{
+    color:#ffffff;
+    margin:100px;
+    padding: 40px;
+}
+*{
+
+}
+
+.header h1{
+    background-color: #556b2f;
+    display:flex;
+    justify-content: center;
+}
+.header a{
+    background-color: #556b2f;
+    display:flex;
+    justify-content:space-evenly;
+    color:#ffffff;
+    padding: 5px;
+}
+
+.apps{
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.info{
+    background-color: #f0f8ff
+}
+
+.info p{
+    opacity: 0;
+}
+.info:hover p{
+    opacity: 1;
+}
+a:link{
+    color: rgb(135, 190, 177);
+}
+
+a:visited{
+    color: rgb(140, 177, 105);
+}
